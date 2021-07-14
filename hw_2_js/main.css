@@ -1,0 +1,22 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.post-card{
+    width: 200px;
+    margin: 10px;
+}
+h3{
+   min-height: 70px;
+    color: red;
+}
+.wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.post-card-list{
+    width: 600px;
+    margin: 10px;
+}
