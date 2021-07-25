@@ -2,121 +2,231 @@
 
 
  // 1. перебрати його циклом while
-// let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
-// let n = 0
-// while (a < array.length) {
-//     console.log(array[a])
-//     n++
-// }
-//
-//
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = 0
+while (i < array.length) {
+    console.log(array[i])
+    i++
+}*/
+
+
+
+
 // // 2. перебрати його циклом for
-// for (let i = 0; i < array1.length; i++) {
-//     console.log(array1[i])
-// }
-//
-//
-// // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
-// let n = 0
-// while (n < array1.length) {
-//     if (array1[n] % 2 !== 0) {
-//         console.log(array1[n])
-//     }
-//     n++
-// }
-//
-//
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+}*/
+
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (const number of array) {
+    console.log(number)
+}*/
+
+
+// 3. перебрати циклом while та вивести  числа тільки з непарним індексом
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = 0
+while (i < array.length) {
+    if (i % 2 == 1) {
+        console.log(array[i])
+    }
+    i++
+}*/
+
+
+//непарні значення
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = 0
+while (i < array.length) {
+    if (array[i]% 2 == 1) {
+        console.log(array[i])
+    }
+    i++
+}*/
+
+
 // // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
-// for (let i = 0; i < array1.length; i++) {
-//     if (array1[i] % 2 !== 0) {
-//         console.log(array1[i])
-//     }
-// }
-//
-//
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (let i = 0; i < array.length; i++) {
+    if (i % 2 == 1) {
+        console.log(array[i])
+    }
+}*/
+
+
+//непарні значення
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 == 1) {
+        console.log(array[i])
+    }
+}*/
+
+
+
 // // 5. перебрати циклом while та вивести  числа тільки парні  значення
-// let n = 0
-// while (n < array1.length) {
-//     if (array1[n] % 2 === 0) {
-//         console.log(array1[n]);
-//     }
-//     n++
-// }
-//
-//
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = 0
+while (i < array.length) {
+    if (array[i] % 2 == 0) {
+        console.log(array[i])
+    }
+    i++
+}*/
+
+
+
+
 // // 6. перебрати циклом for та вивести  числа тільки парні  значення
-// for (let i = 0; i < array1.length; i++) {
-//     if (array1[i] % 2 === 0) {
-//         console.log(array1[i])
-//     }
-// }
-//
-//
-// // 7. замінити кожне число кратне 3 на слово "okten"
-// for (let i = 0; i < array1.length; i++) {
-//     if (array1[i] % 3 === 0) {
-//         array1[i] = 'okten'
-//     }
-// }
-// console.log(array1)
-//
-//
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 == 0) {
+        console.log(array[i])
+    }
+}*/
+
+
+
+
+// 7. замінити кожне число кратне 3 на слово "okten"
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (let i = 0; i < array.length; i++) {
+    if (array[i] % 3 === 0) {
+        array[i] = 'okten'
+    }
+}
+console.log(array)*/
+
+
+
+
 // // 8. вивести масив в зворотньому порядку.
-// let array2 = [];
-// for (let i = 0; i < array1.length; i++) {
-//
-//     array2[i] = array1[array1.length - 1 - i]
-//
-// }
-// console.log(array2)
-//
-//
-// // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
-// // 1. перебрати його циклом while
-// let n = array1.length - 1
-// while (n > -1) {
-//     console.log(array1[n])
-//     n--
-// }
-// // 2. перебрати його циклом for
-// for (let i = array1.length - 1; i > -1; i--) {
-//     console.log(array1[i])
-// }
-// // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
-// let n = array1.length;
-// while (n > -1) {
-//     if (array1[n] % 2 !== 0) {
-//         console.log(array1[n])
-//     }
-//     n--
-// }
-// // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
-// for (let i = array1.length - 1; i > -1; i--) {
-//     if (array1[i] % 2 !== 0) {
-//         console.log(array1[i])
-//     }
-// }
-// // 5. перебрати циклом while та вивести  числа тільки парні  значення
-// let n = array1.length - 1
-// while (n > -1) {
-//     if (array1[n] % 2 === 0) {
-//         console.log(array1[n])
-//     }
-//     n--
-// }
-// // 6. перебрати циклом for та вивести  числа тільки парні  значення
-// for (let i = array1.length - 1; i > -1; i--) {
-//     if (array1[i] % 2 === 0) {
-//         console.log(array1[i])
-//     }
-// }
+
+/*
+let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let newArray = [];
+for (let i = 0; i < array.length; i++) {
+    newArray[i] = array[array.length - 1 - i]
+
+}
+console.log(newArray)*/
+
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let newArray = [];
+for (i = array.length-1; i>=0 ; i--) {
+newArray.push(array[i])
+}
+console.log(newArray)*/
+
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+
+
+
+// 1. перебрати його циклом while
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = array.length - 1
+while (i > -1) {
+    console.log(array[i])
+    i--
+}*/
+
+
+// 2. перебрати його циклом for
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (i = array.length-1; i>=0 ; i--) {
+    console.log(array[i])
+}*/
+
+
+
+
+
+// 3. перебрати циклом while та вивести  числа тільки з непарним індексом
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = array.length;
+while (i > 0) {
+    if (i % 2 == 1) {
+        console.log(array[i])
+    }
+    i--
+}*/
+
+
+
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (i = array.length; i>=0 ; i--) {
+    if (i % 2 == 1) {
+        console.log(array[i])
+    }
+}*/
+
+
+
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+let i = array.length
+while (i> -1) {
+    if (array[i] % 2 === 0) {
+        console.log(array[i])
+    }
+    i--
+}*/
+
+
+
+
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (i = array.length; i>=0 ; i--) {
+    if (array[i] % 2 === 0) {
+        console.log(array[i])
+    }
+}*/
+
+
+
 // // 7. замінити кожне число кратне 3 на слово "okten"
-// for (let i = array1.length - 1; i > -1; i--) {
-//     if (array1[i] % 3 === 0) {
-//         array1[i] = 'okten'
-//     }
-// }
-// console.log(array1)
+
+
+/*let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (i = array.length-1; i>=0 ; i--) {
+    if (array[i] % 3 === 0) {
+        array[i] = 'okten'
+    }
+    console.log(array[i])
+}*/
+
 
 //------------------------------------------------------------------------------------------------
 // 1. Створити пустий масив та :
@@ -217,6 +327,12 @@ console.log(newArray)*/
 // 5. Вивести кожен елемент масиву, сусід справа якого є парним
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 
+let array = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+for (i=0;i<array.length;i++){
+if(i+1 !== array.length && array [i+1] % 2 == 0){
+    console.log(array[i])
+}
+}
 
 
 
@@ -273,20 +389,31 @@ console.log(newArray)*/
 
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
-//     let usersWithId = [
-//         {id: 1, name: 'vasya', age: 31, status: false},
-//         {id: 2, name: 'petya', age: 30, status: true},
-//         {id: 3, name: 'kolya', age: 29, status: true},
-//         {id: 4, name: 'olya', age: 28, status: false}
-//     ];
-//
-// let citiesWithId = [
-//     {user_id: 3, country: 'USA', city: 'Portland'},
-//     {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
-//     {user_id: 2, country: 'Poland', city: 'Krakow'},
-//     {user_id: 4, country: 'USA', city: 'Miami'}
-// ];
-//
+    let usersWithId = [
+        {id: 1, name: 'vasya', age: 31, status: false},
+        {id: 2, name: 'petya', age: 30, status: true},
+        {id: 3, name: 'kolya', age: 29, status: true},
+        {id: 4, name: 'olya', age: 28, status: false}
+    ]
+
+let citiesWithId = [
+    {user_id: 3, country: 'USA', city: 'Portland'},
+    {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+    {user_id: 2, country: 'Poland', city: 'Krakow'},
+    {user_id: 4, country: 'USA', city: 'Miami'}
+]
+
+let newArray=[]
+for (const users of usersWithId ) {
+    for (const cities of citiesWithId) {
+    if(users.id=cities.user_id){
+    users.address=cities
+    }
+    }
+    newArray.push(users)
+}
+console.log(newArray)
+
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 //     Записати цей об'єкт в новий масив
 // Example:
