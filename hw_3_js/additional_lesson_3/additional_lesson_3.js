@@ -209,7 +209,22 @@ console.log(result)*/
 //   foo([9,8,0,4], 0) // ==> [ 8, 9, 0, 4 ]
 //   foo([9,8,0,4], 1) // ==> [ 9 ,0, 8, 4 ]
 //   foo([9,8,0,4], 2) // ==> [ 9, 8, 4, 0 ]
-//
+
+
+
+/*function nextElement(array, index){
+    let elementOne = array[index]
+    array[index] = array[index+1]
+    array[index+1] = elementOne
+    return array
+}
+console.log(nextElement([9, 8, 0, 4], 0))
+console.log(nextElement([9, 8, 0, 4], 1))
+console.log(nextElement([9, 8, 0, 4], 2))*/
+
+
+
+
 // - Дано список імен.
 // let n1 = '    Harry       Potter      '
 // let n2 = '    Ron       Whisley      '
@@ -218,10 +233,12 @@ console.log(result)*/
 // let n1 = 'Harry Potter'
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
-//
-// - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву. Зберігаючи при цьому порядок не нульових значень.
-// Двожина масиву від 2 до 100
-// EXAMPLE:
-// [1,0,6,0,3] => [1,6,3,0,0]
-// [0,1,2,3,4] => [1,2,3,4,0]
-// [0,0,1,0]   => [1,0,0,0]
+
+let n1 = '    Harry       Potter      '
+let n2 = '    Ron       Whisley      '
+let n3 = '    Hermione       Granger      '
+function trims(s){
+    let a = s.replace(/\s+/g, ' ')
+    return a
+}
+console.log(`${trims(n1.trim())}\n${trims(n2.trim())}\n${trims(n3.trim())} `)
